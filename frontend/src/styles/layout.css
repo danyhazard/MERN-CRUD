@@ -1,0 +1,68 @@
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: #111827;
+  color: white;
+  padding: 1rem;
+}
+
+.sidebar h2 {
+  margin-bottom: 2rem;
+}
+
+.sidebar nav a {
+  display: block;
+  color: #d1d5db;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+.sidebar nav a.active {
+  color: white;
+  font-weight: bold;
+}
+
+/* Main */
+.main-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar */
+.navbar {
+  height: 56px;
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar button {
+  background: #ef4444;
+  border: none;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Content */
+.content {
+  padding: 2rem;
+  background: #f4f6f8;
+  flex: 1;
+}
