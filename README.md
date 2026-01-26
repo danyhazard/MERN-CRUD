@@ -1,6 +1,6 @@
-# Sistema de Facturación - MERN
+# Sample CRUD - MERN
 
-Sistema interno de facturación desarrollado con stack MERN.
+Sistema crud desarrollado con stack MERN.
 
 ## 🧱 Stack
 - MongoDB
